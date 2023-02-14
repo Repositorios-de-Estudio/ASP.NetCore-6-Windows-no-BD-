@@ -2,6 +2,7 @@
 
 App ASPE.Net Core 6 MVC con base de datos ya existente, crea los modelos a partir de las tablas en la BD.
 
+## FUNCIONA SIN ERRORES, PERO LA FUNCIONALIDAD NO ES LA CORRECTA, NO SE PUEDEN AGREGAR VARIOS ESTUDIASTE A UN CURSO NI AGREGAR VARIAS MATERIAS A LOS CURSOS, ES COMO SI Estudiante_Materia Y Curso_Materia NO HICIERAN NADA. ESTADOS TABLAS NO CREARON MODELO EN C#, NO SE PORQUE
 
 Microsoft.EntityFrameworkCore
 Microsoft.EntityFrameworkCore.SqlServer
