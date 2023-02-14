@@ -25,16 +25,18 @@ builder.Services.AddDbContext<ColegioAbcContext>();
 
 # Sobre la BD
 
-**BD**: ColegioABC \
+**BD**: \
+- ColegioABC \
+
 **Relaciones**: \
-Un Estudiante puede pertenecer a un solo Curso,  un Curso puede tener varios Estudiantes.
-Una Materia pertenece a varios Cursos y un Estudiante puede estar inscrito en varias Materias.
+- Un Estudiante puede pertenecer a un solo Curso, un Curso puede tener varios Estudiantes.
+- Una Materia pertenece a varios Cursos y un Estudiante puede estar inscrito en varias Materias.
 
 ## ACLARACIONES
 
-Estudiantes uno a muchos Cursos (un estudiante pertenece a un solo curso)
-Estudiantes muchos a muchos Materias (Estudiante_Materia)
-Cursos muchos a muchos Materias (Curso_Materia)
+- Estudiantes uno a muchos Cursos (un estudiante pertenece a un solo curso)
+- Estudiantes muchos a muchos Materias (Estudiante_Materia)
+- Cursos muchos a muchos Materias (Curso_Materia)
 
 ## Diagrama Entidad Relacion
 
